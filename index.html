@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
   <style>
+    
      body{
       background-color:#390407;
      }
@@ -24,7 +25,19 @@
     }
 
     .fade-in-text{
-    animation: fadeIn 2s;
+      animation: fadeInAnimation ease 3s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+    }
+    
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+           }
+
+        100% {
+            opacity: 1;
+            }
     }
     
   </style>
