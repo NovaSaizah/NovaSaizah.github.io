@@ -4,6 +4,9 @@
     
      body{
       background-color:#390407;
+      animation: fadeIn ease 3s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
      }
      
      p{
@@ -23,12 +26,6 @@
       color:#ca0e0e;
       text-align:center;
     }
-
-    .fade-in-text{
-      animation: fadeInAnimation ease 3s;
-      animation-iteration-count: 1;
-      animation-fill-mode: forwards;
-    }
     
     @keyframes fadeIn {
         0% {
@@ -42,10 +39,8 @@
     
   </style>
   <body>
-    <div class = "fade-in-text">
       <h2>
         Call me Nova.
       </h2>
-    </div>
   </body> 
 </html>
